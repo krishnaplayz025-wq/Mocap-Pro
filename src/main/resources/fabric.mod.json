@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mocapui",
+  "version": "${version}",
+  "name": "Mocap UI",
+  "description": "Blockbuster-style UI for the Motion Capture (Mocap) mod. Press M.",
+  "authors": ["you"],
+  "license": "LGPL-3.0-only",
+  "environment": "client",
+  "entrypoints": { "client": ["com.mocapui.MocapUiClient"] },
+  "depends": {
+    "minecraft": "~1.21.11",
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "java": ">=21",
+    "mocap": "*"
+  }
+}
